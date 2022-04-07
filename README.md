@@ -17,6 +17,6 @@ python seamcarving.py [source image] [number of seams to add/remove] [shrink/str
 [show seams (only for shrinking)] = "yes" or "no" <br />
 
 Examples: <br />
-python seamcarving.py input/island.png shrink backward output/island_red_lines.png yes <br />
+python seamcarving.py input/island.png 50 shrink backward output/island_red_lines.png yes <br />
 
-python seamcarving.py input/island.png stretch output/island_stretch.png backward <br />
+python seamcarving.py input/island.png 50 stretch output/island_stretch.png backward <br />
