@@ -1,8 +1,8 @@
 # seam-carving
 # author: Monee McGrady
 
-The goal of this project was to code up a seam carving algorithm using forward and backward cumulative energy functions presented in the paper <br />
-Seam Carving for Content-Aware Image Resizing, as well as to replicate the results presented in the paper, which can be found here: <br />
+The goal of this project was to code up a seam carving algorithm using forward and backward cumulative energy functions presented in the paper
+Seam Carving for Content-Aware Image Resizing, which can be found here: <br />
 http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.pdf. <br />
 
 To run the code, use the following command line template: <br />
