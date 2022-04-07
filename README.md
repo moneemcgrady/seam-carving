@@ -1,22 +1,22 @@
 # seam-carving
 # author: Monee McGrady
 
-The goal of this project was to code up a seam carving algorithm using forward and backward cumulative energy functions presented in the paper
-Seam Carving for Content-Aware Image Resizing, as well as to replicate the results presented in the paper, which can be found here: 
-http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.pdf.
+The goal of this project was to code up a seam carving algorithm using forward and backward cumulative energy functions presented in the paper <br />
+Seam Carving for Content-Aware Image Resizing, as well as to replicate the results presented in the paper, which can be found here: <br />
+http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.pdf. <br />
 
-To run the code, use the following command line template:
+To run the code, use the following command line template: <br />
 
-python seamcarving.py [source image] [number of seams to add/remove] [shrink/stretch image] [cumulative energy function] [output image path] [show seams (only for shrinking)]
+python seamcarving.py [source image] [number of seams to add/remove] [shrink/stretch image] [cumulative energy function] [output image path] [show seams (only for shrinking)] <br />
 
-[source image] = path to the source image you want to shrink or stretch
-[number of seams to add/remove] = integer
-[shrink/stretch image] = "shrink" or "stretch"
-[cumulative energy function] = "forward" or "backward"
-[output image path] = path to output image
-[show seams (only for shrinking)] = "yes" or "no"
+[source image] = path to the source image you want to shrink or stretch <br />
+[number of seams to add/remove] = integer <br />
+[shrink/stretch image] = "shrink" or "stretch" <br />
+[cumulative energy function] = "forward" or "backward" <br />
+[output image path] = path to output image <br />
+[show seams (only for shrinking)] = "yes" or "no" <br />
 
-Examples:
-python seamcarving.py input/island.png shrink backward output/island_red_lines.png yes
+Examples: <br />
+python seamcarving.py input/island.png shrink backward output/island_red_lines.png yes <br />
 
-python seamcarving.py input/island.png stretch output/island_stretch.png backward
+python seamcarving.py input/island.png stretch output/island_stretch.png backward <br />
