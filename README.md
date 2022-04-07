@@ -7,15 +7,16 @@ http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.p
 
 To run the code, use the following command line template:
 
-python seamcarving.py [source image] [number of seams to add/remove] [shrink/stretch image] [cumulative energy function] [show seams (only for shrinking)]
+python seamcarving.py [source image] [number of seams to add/remove] [shrink/stretch image] [cumulative energy function] [output image path] [show seams (only for shrinking)]
 
 [source image] = path to the source image you want to shrink or stretch
 [number of seams to add/remove] = integer
 [shrink/stretch image] = "shrink" or "stretch"
 [cumulative energy function] = "forward" or "backward"
+[output image path] = path to output image
 [show seams (only for shrinking)] = "yes" or "no"
 
 Examples:
-python seamcarving.py input/island.png shrink backward yes
+python seamcarving.py input/island.png shrink backward output/island_red_lines.png yes
 
-python seamcarving.py input/island.png stretch backward
+python seamcarving.py input/island.png stretch output/island_stretch.png backward
